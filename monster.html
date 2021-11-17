@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Monster | Website</title>
+    <script src="cart2.js" async></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="con">
+        <div class="bar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Products.html">Top Anime</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="recommendation.html"><img src="images/high.png" width="40px" height="40px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+        <!-- single product detais -->
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/monster.jpg" width="100%" id="productimg">
+                </div>
+                <div class="col-2">
+                    <p>
+                        Home/Anime
+                    </p>
+                    <h1>
+                        Monster
+                    </h1>
+                    <h3>
+                        Rating
+                    </h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>
+                        <i class="fa fa-rupee" style="color: black;"> 1500 Rupees</i>
+                    </h4>
+                    <h3> Syonpsis<i class="fa fa-indent"></i></h3>
+                    <p>
+                        Dr. Kenzou Tenma, an elite neurosurgeon recently engaged to his hospital director's daughter, is
+                        well on his way to ascending the hospital hierarchy. That is until one night, a seemingly small
+                        event changes Dr. Tenma's life forever. While preparing to perform surgery on someone, he gets a
+                        call from the hospital director telling him to switch patients and instead perform life-saving
+                        brain surgery on a famous performer. His fellow doctors, fiancée, and the hospital director
+                        applaud his accomplishment; but because of the switch, a poor immigrant worker is dead, causing
+                        Dr. Tenma to have a crisis of conscience.
+
+                        So when a similar situation arises, Dr. Tenma stands his ground and chooses to perform surgery
+                        on the young boy Johan Liebert instead of the town's mayor. Unfortunately, this choice leads to
+                        serious ramifications for Dr. Tenma—losing his social standing being one of them. However, with
+                        the mysterious death of the director and two other doctors, Dr. Tenma's position is restored.
+                        With no evidence to convict him, he is released and goes on to attain the position of hospital
+                        director.
+
+                        Nine years later when Dr. Tenma saves the life of a criminal, his past comes back to haunt
+                        him—once again, he comes face to face with the monster he operated on. He must now embark on a
+                        quest of pursuit to make amends for the havoc spread by the one he saved.
+                    </p>
+                    <br><br>
+                    <h3>Anime Info :-</h3>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Episodes :</i></b> 74</li>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Producers :</i></b> VAP
+                        ,VIZ Media</li>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Genres :</i></b>
+                        Drama,Horror,Mystery,Suspense</li>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Studio :</i></b> Studio Madhouse</li>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Source :</i></b> Manga</li>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Status :</i></b> Finished Ariring</li>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Movies/Seasons :</i></b> 0/1 </li>
+                </div>
+            </div>
+        </div>
+        <!-- title -->
+        <div class="small-container">
+            <div class="row-2">
+                <h2>Related Animes</h2>
+                <a href="Products.html">
+                    <p style="text-align: right; cursor: pointer;">View More</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="images/monster.jpg" width="100" height="100">
+                    <span class="cart-item-title">Monster</span>
+                </div>
+                <span class="cart-price cart-column">1500 Rupees</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="0">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">0 Rupees</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4" style="cursor: pointer;">
+                <a href="haikyu.html"><img src="images/haikyuu'.jpg"></a>
+                <h4>
+                    Haikyuu!!
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>
+                    <i class="fa fa-rupee"> 1300 Rupees</i>
+                </p>
+            </div>
+            <div class="col-4" style="cursor: pointer;">
+                <a href="game.html"><img src="images/nogame.jpg"></a>
+                <h4>
+                    No Game No Life
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>
+                    <i class="fa fa-rupee"> 1400 Rupees</i>
+                </p>
+            </div>
+            <div class="col-4" style="cursor: pointer;">
+                <a href="konosuba.html"><img src="images/kono3.jpg"></a>
+                <h4>
+                    KonoSuba
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>
+                    <i class="fa fa-rupee"> 1350 Rupees</i>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="foo-1">
+                    <h3>
+                        Download App
+                    </h3>
+                    <p>
+                        Download App for Andriod and IOS Mobile Phone
+                    </p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+
+                    </div>
+                </div>
+                <div class="foo-2">
+                    <img src="images/logo-white.png">
+                    <p>
+                        To a Whole New World Of Fantasy
+                    </p>
+                </div>
+                <div class="foo-3">
+                    <h3>
+                        Links
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return</li>
+                        <li>Join Discussion</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="foo-3">
+                    <h3>
+                        Follow Us
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Fackbook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Discord</li>
+                        <li>Youtube</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright" style="text-align: center;"> Copyright 2021 -Ravi Pathak</p>
+        </div>
+    </div>
+    <!-- js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>

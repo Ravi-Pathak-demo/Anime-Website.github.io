@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Eighty-Six | Website</title>
+    <script src="cart2.js" async></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="con">
+        <div class="bar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Products.html">Top Anime</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+            <a href="recommendation.html"><img src="images/high.png" width="40px" height="40px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+        <!-- single product detais -->
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/86.jpg" width="100%" id="productimg">
+                </div>
+                <div class="col-2">
+                    <p>
+                        Home/Anime
+                    </p>
+                    <h1>
+                        Eighty Six
+                    </h1>
+                    <h3>
+                        Rating
+                    </h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-empty"></i>
+                    </div>
+                    <h4>
+                        <i class="fa fa-rupee" style="color: black;"> 1070 Rupees</i>
+                    </h4>
+                    <h3> Syonpsis<i class="fa fa-indent"></i></h3>
+                    <p>
+                        According to the Republic of San Magnolia, their ongoing war against the Giadian Empire has no
+                        casualties—however, that is mere propaganda. While the silver-haired Alba of the Republic's
+                        eighty-five sectors live safely behind protective walls, those of different appearances are
+                        interned in a secret eighty-sixth faction. Known within the military as the Eighty-Six, they are
+                        forced to fight against the Empire's autonomous Legion under the command of the Republican
+                        "Handlers."
+
+                        Vladilena Milizé is assigned to the Spearhead squadron to replace their previous Handler.
+                        Shunned by her peers for being a fellow Eighty-Six supporter, she continues to fight against
+                        their inhumane discrimination. Shinei Nouzen is the captain of the Spearhead squadron. Infamous
+                        for being the sole survivor of every squadron he's been in, he insists on shouldering the names
+                        and wishes of his fallen comrades. When the fates of these young souls from two different worlds
+                        collide, will it ignite the spark that lights their path to salvation, or will they burn
+                        themselves in the flames of despair?
+                    </p>
+                    <br><br>
+                    <h3>Anime Info :-</h3>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Episodes :</i></b> 25</li>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Producers :</i></b> Aniplex</li>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Genres :</i></b> Action,Drama,Sci-Fi</li>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Studio :</i></b> A-1 Pictures</li>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Source :</i></b> Light Novel</li>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Status :</i></b> Ariring</li>
+                    <li style="list-style-type: none;font-size: large;"><b><i>Movies/Seasons :</i></b> 0/2 </li>
+                </div>
+            </div>
+        </div>
+        <!-- title -->
+        <div class="small-container">
+            <div class="row-2">
+                <h2>Related Animes</h2>
+                <a href="Products.html">
+                    <p style="text-align: right; cursor: pointer;">View More</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="images/86.jpg" width="100" height="100">
+                    <span class="cart-item-title">Eighty Six</span>
+                </div>
+                <span class="cart-price cart-column">1070 Rupees</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="0">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">0 Rupees</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4" style="cursor: pointer;">
+                <a href="rising.html"><img src="images/rising.jpg"></a>
+                <h4>
+                    The Rising of Shield Hero
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-empty"></i>
+                </div>
+                <p>
+                    <i class="fa fa-rupee"> 1100 Rupees</i>
+                </p>
+            </div>
+            <div class="col-4" style="cursor: pointer;">
+                <a href="gate.html"><img src="images/gate.jpg"></a>
+                <h4>
+                    Steins Gate
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>
+                    <i class="fa fa-rupee"> 1450 Rupees</i>
+                </p>
+            </div>
+            <div class="col-4" style="cursor: pointer;">
+                <a href="vivy.html"><img src="images/vivy.jpg"></a>
+                <h4>
+                    Vivy
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-empty"></i>
+                </div>
+                <p>
+                    <i class="fa fa-rupee"> 1200 Rupees</i>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="foo-1">
+                    <h3>
+                        Download App
+                    </h3>
+                    <p>
+                        Download App for Andriod and IOS Mobile Phone
+                    </p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+
+                    </div>
+                </div>
+                <div class="foo-2">
+                    <img src="images/logo-white.png">
+                    <p>
+                        To a Whole New World Of Fantasy
+                    </p>
+                </div>
+                <div class="foo-3">
+                    <h3>
+                        Links
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return</li>
+                        <li>Join Discussion</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="foo-3">
+                    <h3>
+                        Follow Us
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Fackbook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Discord</li>
+                        <li>Youtube</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright" style="text-align: center;"> Copyright 2021 -Ravi Pathak</p>
+        </div>
+    </div>
+    <!-- js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>

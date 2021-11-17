@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Code Geass | Website</title>
+    <script src="cart2.js" async></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="con">
+        <div class="bar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Products.html">Top Anime</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="recommendation.html"><img src="images/high.png" width="40px" height="40px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+        <!-- single product detais -->
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/code.jpg" width="100%" id="productimg">
+                </div>
+                <div class="col-2">
+                    <p>
+                        Home/Anime
+                    </p>
+                    <h1>
+                        Code Geass
+                    </h1>
+                    <h3>
+                        Rating
+                    </h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>
+                        <i class="fa fa-rupee" style="color: black;"> 1450 Rupees</i>
+                    </h4>
+                    <h3> Syonpsis<i class="fa fa-indent"></i></h3>
+                    <p>
+                        In the year 2010, the Holy Empire of Britannia is establishing itself as a dominant military
+                        nation, starting with the conquest of Japan. Renamed to Area 11 after its swift defeat, Japan
+                        has seen significant resistance against these tyrants in an attempt to regain independence.
+
+                        Lelouch Lamperouge, a Britannian student, unfortunately finds himself caught in a crossfire
+                        between the Britannian and the Area 11 rebel armed forces. He is able to escape, however, thanks
+                        to the timely appearance of a mysterious girl named C.C., who bestows upon him Geass, the "Power
+                        of Kings." Realizing the vast potential of his newfound "power of absolute obedience," Lelouch
+                        embarks upon a perilous journey as the masked vigilante known as Zero, leading a merciless
+                        onslaught against Britannia in order to get revenge once and for all.
+                    </p>
+                    <br><br>
+                    <h3>Anime Info :-</h3>
+                        <li style="list-style-type: none;font-size: large;"><b><i>Episodes :</i></b> 50</li>
+                        <li style="list-style-type: none;font-size: large;"><b><i>Producers :</i></b> Bandai,Namco,Funimation</li>
+                        <li style="list-style-type: none;font-size: large;"><b><i>Genres :</i></b> Drama,Action,Sci-Fi</li>
+                        <li style="list-style-type: none;font-size: large;"><b><i>Studio :</i></b> Studio Lerche</li>
+                        <li style="list-style-type: none;font-size: large;"><b><i>Source :</i></b> Original</li>
+                        <li style="list-style-type: none;font-size: large;"><b><i>Status :</i></b> Finished Ariring</li>
+                        <li style="list-style-type: none;font-size: large;"><b><i>Movies/Seasons :</i></b> 5/2 </li>
+                </div>
+            </div>
+        </div>
+        <!-- title -->
+        <div class="small-container">
+            <div class="row-2">
+                <h2>Related Animes</h2>
+                <a href="Products.html">
+                    <p style="text-align: right; cursor: pointer;">View More</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="images/code.jpg" width="100" height="100">
+                    <span class="cart-item-title">Code Geass</span>
+                </div>
+                <span class="cart-price cart-column">1450 Rupees</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="0">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">0 Rupees</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4" style="cursor: pointer;">
+                <a href="food.html"><img src="images/food.jpg"></a>
+                <h4>
+                    Food Wars
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>
+                    <i class="fa fa-rupee"> 1000 Rupees</i>
+                </p>
+            </div>
+            <div class="col-4" style="cursor: pointer;">
+                <a href="stone.html"><img src="images/dr.jpg"></a>
+                <h4>
+                    Dr.Stone
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-empty"></i>
+                </div>
+                <p>
+                    <i class="fa fa-rupee"> 1200 Rupees</i>
+                </p>
+            </div>
+            <div class="col-4" style="cursor: pointer;">
+                <a href="hero.html"><img src="images/mha.jpg"></a>
+                <h4>
+                    My Hero Academia
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-empty"></i>
+                </div>
+                <p>
+                    <i class="fa fa-rupee"> 1100 Rupees</i>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="foo-1">
+                    <h3>
+                        Download App
+                    </h3>
+                    <p>
+                        Download App for Andriod and IOS Mobile Phone
+                    </p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+
+                    </div>
+                </div>
+                <div class="foo-2">
+                    <img src="images/logo-white.png">
+                    <p>
+                        To a Whole New World Of Fantasy
+                    </p>
+                </div>
+                <div class="foo-3">
+                    <h3>
+                        Links
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return</li>
+                        <li>Join Discussion</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="foo-3">
+                    <h3>
+                        Follow Us
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Fackbook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Discord</li>
+                        <li>Youtube</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright" style="text-align: center;"> Copyright 2021 -Ravi Pathak</p>
+        </div>
+    </div>
+    <!-- js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
